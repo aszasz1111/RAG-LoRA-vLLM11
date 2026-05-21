@@ -1,17 +1,12 @@
-from vllm import LLM, SamplingParams
+# vllm_infer/generate.py
+from openai import OpenAI
 
-MODEL_PATH = "/path/to/your/model"
-
-llm = LLM(model=MODEL_PATH, trust_remote_code=True)
-
-sampling_params = SamplingParams(
-    temperature=0.7,
-    top_p=0.9,
-    max_tokens=256
-)
-
-prompt = "你好，介绍一下你自己"
-
-outputs = llm.generate([prompt], sampling_params)
-
-print(outputs[0].outputs[0].text)
+def get_weather_answer(prompt):
+    client = OpenAI(api_key="EMPTY", base_url="http://127.0.0.1:8000/v1")
+    response = client.chat.completions.create(
+        model="weather_lora",
+        messages=[{"role": "user", "content": prompt}],
+        temperature=0.1,
+        max_tokens=512
+    )
+    return response.choices[0].message.content
