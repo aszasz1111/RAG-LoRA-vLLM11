@@ -129,9 +129,3 @@ python app.py
 🔥 支持知识增强 + 领域微调 + 高速推理
 🔥 工程化完整（可部署/可扩展）
 
-## 💡 可优化方向（面试加分点）
-引入 rerank 模型提升 RAG 精度
-使用 FAISS 替代/对比 ChromaDB
-加入 Prompt Template 管理系统
-Docker 部署
-FastAPI + 前端可视化界面
