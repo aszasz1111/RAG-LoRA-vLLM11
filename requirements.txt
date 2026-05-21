@@ -1,0 +1,12 @@
+langchain
+langchain-community
+chromadb
+sentence-transformers
+gradio
+openai
+pypdf
+tqdm
+numpy
+pandas
+torch
+transformers

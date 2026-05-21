@@ -1,0 +1,18 @@
+{
+  "weather_sft_train": {
+    "file_name": "data/weather_sft_train.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "weather_sft_eval": {
+    "file_name": "data/weather_sft_eval.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}

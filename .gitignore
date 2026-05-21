@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Env
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Vector DB
+chroma_db/
+
+# Logs
+*.log
+
+# Colab
+.ipynb_checkpoints/
+
+# HuggingFace Cache
+.cache/
+huggingface_cache/
+
+# Evaluation Results
+eval/results/*.csv
+eval/results/*.json
+
+# Documents
+*.pdf
+
+# Archives
+*.zip
+
+# LoRA checkpoints
+checkpoint-*/

@@ -1,0 +1,247 @@
+[
+  {
+    "id": 1,
+    "category": "基础概念问答",
+    "question": "双偏振雷达参数 ZDR 的含义是什么？",
+    "expected_keywords": ["ZDR", "水平", "垂直"]
+  },
+  {
+    "id": 2,
+    "category": "基础概念问答",
+    "question": "KDP 在双偏振雷达分析中主要反映什么信息？",
+    "expected_keywords": ["KDP", "降水", "液态水"]
+  },
+  {
+    "id": 3,
+    "category": "基础概念问答",
+    "question": "相关系数 ρHV 在雷达识别中有什么作用？",
+    "expected_keywords": ["ρHV", "相关系数", "粒子"]
+  },
+  {
+    "id": 4,
+    "category": "基础概念问答",
+    "question": "雷达反射率因子在强对流天气分析中能反映什么？",
+    "expected_keywords": ["反射率", "回波", "强度"]
+  },
+  {
+    "id": 5,
+    "category": "基础概念问答",
+    "question": "双偏振雷达相比传统天气雷达有哪些优势？",
+    "expected_keywords": ["双偏振", "粒子", "识别"]
+  },
+  {
+    "id": 6,
+    "category": "基础概念问答",
+    "question": "为什么 ZDR、KDP 和 ρHV 常被联合用于强对流天气分析？",
+    "expected_keywords": ["ZDR", "KDP", "ρHV"]
+  },
+  {
+    "id": 7,
+    "category": "基础概念问答",
+    "question": "回波顶高在强对流天气监测中有什么意义？",
+    "expected_keywords": ["回波顶高", "对流", "强度"]
+  },
+  {
+    "id": 8,
+    "category": "基础概念问答",
+    "question": "文档中提到的双偏振雷达主要用于识别哪些天气现象？",
+    "expected_keywords": ["双偏振雷达", "识别", "天气"]
+  },
+
+  {
+    "id": 9,
+    "category": "下击暴流领域问答",
+    "question": "什么是下击暴流？",
+    "expected_keywords": ["下击暴流", "下沉气流", "大风"]
+  },
+  {
+    "id": 10,
+    "category": "下击暴流领域问答",
+    "question": "下击暴流通常会造成哪些灾害性影响？",
+    "expected_keywords": ["下击暴流", "大风", "灾害"]
+  },
+  {
+    "id": 11,
+    "category": "下击暴流领域问答",
+    "question": "弱垂直风切变环境下，强下击暴流有哪些主要雷达特征？",
+    "expected_keywords": ["弱垂直风切变", "下击暴流", "雷达"]
+  },
+  {
+    "id": 12,
+    "category": "下击暴流领域问答",
+    "question": "弱垂直风切变环境下，强下击暴流有哪些双偏振雷达特征？",
+    "expected_keywords": ["下击暴流", "ZDR", "KDP", "ρHV"]
+  },
+  {
+    "id": 13,
+    "category": "下击暴流领域问答",
+    "question": "下击暴流形成前后，雷达回波结构可能出现哪些变化？",
+    "expected_keywords": ["下击暴流", "回波", "变化"]
+  },
+  {
+    "id": 14,
+    "category": "下击暴流领域问答",
+    "question": "下击暴流发生过程中，近地面大风与雷达回波特征之间有什么联系？",
+    "expected_keywords": ["下击暴流", "大风", "回波"]
+  },
+  {
+    "id": 15,
+    "category": "下击暴流领域问答",
+    "question": "双偏振雷达参数在下击暴流识别中的作用是什么？",
+    "expected_keywords": ["双偏振雷达", "下击暴流", "识别"]
+  },
+  {
+    "id": 16,
+    "category": "下击暴流领域问答",
+    "question": "下击暴流识别过程中，ZDR、KDP 和 ρHV 分别能提供哪些判别信息？",
+    "expected_keywords": ["ZDR", "KDP", "ρHV"]
+  },
+  {
+    "id": 17,
+    "category": "下击暴流领域问答",
+    "question": "文档中提到的下击暴流预警依据主要有哪些？",
+    "expected_keywords": ["下击暴流", "预警", "特征"]
+  },
+  {
+    "id": 18,
+    "category": "下击暴流领域问答",
+    "question": "请概括文档中关于下击暴流发生发展过程的主要结论。",
+    "expected_keywords": ["下击暴流", "发生", "发展"]
+  },
+
+  {
+    "id": 19,
+    "category": "雷达特征与预警",
+    "question": "强对流天气发生前，雷达回波可能表现出哪些值得关注的信号？",
+    "expected_keywords": ["强对流", "雷达回波", "信号"]
+  },
+  {
+    "id": 20,
+    "category": "雷达特征与预警",
+    "question": "双偏振雷达在强对流天气短临预警中的应用价值是什么？",
+    "expected_keywords": ["双偏振雷达", "强对流", "预警"]
+  },
+  {
+    "id": 21,
+    "category": "雷达特征与预警",
+    "question": "文档中哪些内容可以作为强对流天气预警的依据？",
+    "expected_keywords": ["强对流", "预警", "依据"]
+  },
+  {
+    "id": 22,
+    "category": "雷达特征与预警",
+    "question": "在强对流天气分析中，为什么需要同时关注传统雷达参量和双偏振参量？",
+    "expected_keywords": ["传统雷达", "双偏振", "强对流"]
+  },
+  {
+    "id": 23,
+    "category": "雷达特征与预警",
+    "question": "请总结强对流天气中回波强度、回波顶高与灾害性天气之间的关系。",
+    "expected_keywords": ["回波强度", "回波顶高", "灾害"]
+  },
+  {
+    "id": 24,
+    "category": "雷达特征与预警",
+    "question": "文档中提到的雷暴大风或强风天气有哪些雷达指示特征？",
+    "expected_keywords": ["雷暴大风", "强风", "雷达"]
+  },
+  {
+    "id": 25,
+    "category": "雷达特征与预警",
+    "question": "双偏振雷达对降水粒子和冰雹识别有何帮助？",
+    "expected_keywords": ["双偏振雷达", "降水粒子", "冰雹"]
+  },
+  {
+    "id": 26,
+    "category": "雷达特征与预警",
+    "question": "请概括文档中与灾害性大风监测相关的主要雷达判据。",
+    "expected_keywords": ["灾害性大风", "雷达", "判据"]
+  },
+
+  {
+    "id": 27,
+    "category": "结构化理解与总结",
+    "question": "请提取文档中与下击暴流识别相关的核心雷达参数。",
+    "expected_keywords": ["下击暴流", "ZDR", "KDP"]
+  },
+  {
+    "id": 28,
+    "category": "结构化理解与总结",
+    "question": "请总结文档中关于强下击暴流形成与预警的主要内容。",
+    "expected_keywords": ["强下击暴流", "形成", "预警"]
+  },
+  {
+    "id": 29,
+    "category": "结构化理解与总结",
+    "question": "请根据文档概括双偏振雷达在灾害性天气监测中的主要应用。",
+    "expected_keywords": ["双偏振雷达", "灾害性天气", "监测"]
+  },
+  {
+    "id": 30,
+    "category": "结构化理解与总结",
+    "question": "请从文档中归纳强对流天气识别时最常关注的几个雷达特征。",
+    "expected_keywords": ["强对流", "雷达特征", "识别"]
+  },
+  {
+    "id": 31,
+    "category": "结构化理解与总结",
+    "question": "请概括文档中有关下击暴流形成机制的解释。",
+    "expected_keywords": ["下击暴流", "形成机制"]
+  },
+  {
+    "id": 32,
+    "category": "结构化理解与总结",
+    "question": "请总结文档中双偏振雷达参数异常变化与强对流天气发展的关系。",
+    "expected_keywords": ["双偏振雷达", "参数", "强对流"]
+  },
+  {
+    "id": 33,
+    "category": "结构化理解与总结",
+    "question": "请归纳文档中对短时强降水、冰雹或大风等天气的雷达识别思路。",
+    "expected_keywords": ["短时强降水", "冰雹", "大风"]
+  },
+  {
+    "id": 34,
+    "category": "结构化理解与总结",
+    "question": "请根据文档提炼3条与强对流天气预警有关的关键知识点。",
+    "expected_keywords": ["强对流", "预警", "关键"]
+  },
+
+  {
+    "id": 35,
+    "category": "跨文档综合",
+    "question": "综合多篇文档，双偏振雷达在下击暴流与强对流天气研究中体现出了哪些共同价值？",
+    "expected_keywords": ["双偏振雷达", "下击暴流", "强对流"]
+  },
+  {
+    "id": 36,
+    "category": "跨文档综合",
+    "question": "综合文档内容，强对流天气预警通常需要重点关注哪些雷达信息？",
+    "expected_keywords": ["强对流", "预警", "雷达"]
+  },
+  {
+    "id": 37,
+    "category": "跨文档综合",
+    "question": "综合文档内容，ZDR、KDP 和 ρHV 三类参数在灾害天气识别中的互补关系是什么？",
+    "expected_keywords": ["ZDR", "KDP", "ρHV"]
+  },
+
+  {
+    "id": 38,
+    "category": "鲁棒性测试",
+    "question": "文档是否讨论了台风眼墙替换过程？",
+    "expected_keywords": []
+  },
+  {
+    "id": 39,
+    "category": "鲁棒性测试",
+    "question": "文档中是否分析了海洋表层温度对厄尔尼诺事件的直接影响？",
+    "expected_keywords": []
+  },
+  {
+    "id": 40,
+    "category": "鲁棒性测试",
+    "question": "文档是否给出了人工智能大模型训练损失函数的比较实验？",
+    "expected_keywords": []
+  }
+]

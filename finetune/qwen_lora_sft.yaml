@@ -1,0 +1,72 @@
+### model
+model_name_or_path: Qwen/Qwen3-4B-Instruct-2507
+trust_remote_code: true
+
+# 4-bit QLoRA，降低云端训练显存压力
+quantization_bit: 4
+quantization_method: bnb
+
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+
+# LoRA 参数
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.05
+lora_target: all
+
+
+### dataset
+# 读取 finetune/dataset_info.json
+dataset_dir: finetune
+
+# 训练集与验证集名称，要和 dataset_info.json 里的 key 一致
+dataset: weather_sft_train
+eval_dataset: weather_sft_eval
+
+# Qwen3-Instruct 官方示例使用该模板
+template: qwen3_nothink
+
+# 最大输入长度
+cutoff_len: 2048
+
+# 你的数据量目前较小，这里不做截断
+# max_samples: 1000
+
+overwrite_cache: true
+preprocessing_num_workers: 4
+dataloader_num_workers: 2
+
+
+### output
+output_dir: saves/qwen3-4b-weather/qlora/sft
+logging_steps: 1
+save_steps: 10
+eval_steps: 10
+plot_loss: true
+overwrite_output_dir: true
+save_only_model: false
+report_to: none
+
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 8
+learning_rate: 1.0e-4
+num_train_epochs: 3.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+
+# 云端如果是支持 BF16 的显卡可保留
+bf16: true
+
+ddp_timeout: 180000000
+resume_from_checkpoint: null
+
+
+### eval
+per_device_eval_batch_size: 1
+eval_strategy: steps
